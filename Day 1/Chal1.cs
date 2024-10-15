@@ -13,10 +13,9 @@ namespace D1Cha1
             Console.WriteLine("Please Sign Up ");
             Console.WriteLine("Your Name: ");
             string name = Console.ReadLine();
-            name=name.Trim();
+            name = name.Trim();
             Console.WriteLine("Your Password: ");
             string passCode = Console.ReadLine();
-            passCode=passCode.Trim();
 
             Console.WriteLine("To Log In Please enter your name and password");
             Console.WriteLine("Your Name: ");
@@ -31,6 +30,7 @@ namespace D1Cha1
             }
             else { Console.WriteLine("Wrong Name Or Passcode"); }
 
-            Console.ReadLine(); 
+            Console.ReadLine();
         }
-}}
+    }
+}
